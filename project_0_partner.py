@@ -7,5 +7,20 @@ if userInput == 'A':
 elif userInput == 'B':
 # Student 2 finishes this code 
 
+elif userInput == 'C':
+# Student 3 finishes this code
+C_story = print("Once you arrive on Mars, there are footprints in the terrain that lead to a dark and foreboding cave.")
+C_userChoice = input("Do you A) follow the tracks? Or do you B) keep wandering around on Mars?")
+
+    if C_userChoice == 'A':
+    #Cave Scene
+        C2A_story = print("You arrive at the mouth of the ominous cave. The smell of mold and dampness seems to grow stronger the more you progress into the cave's uncertainty. After walking for what felt like hours, you start to make out a dim glow in the distance. As you run towards the light, you stop in the middle of a cavern within the cave but are blinded by the sheer amount of light all around you.")
+        C2A_userChoice = input("Do you A) Turn back from the blinding room? Or do you B) Wait for your eyes to adjust so you can see the room?")
+    elif C_userChoice == 'B':
+        C2B_story = print("You ignore the tracks ")
+        #Explore scene
+
+
+
 else: 
     print("You entered something wrong - refresh and try again!")
