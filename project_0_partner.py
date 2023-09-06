@@ -6,13 +6,13 @@ if userInput == 'A':
     a_input1 = input("Last chance to back out. Choose wisely. A) I'm getting out of here! B) Nah screw it, I'm going in!")
     if a_input1 == "A":
         print("Ah you're no fun. Directing ship back to home.")
-    elif a_input2 == "B":
+    elif a_input1 == "B":
         print("Alright, that's the right idea! Directing course to the black hole, which we won't actually be able to see, but we'll know it when we get there.")
-        a_input2B = input("Sooooo it seems like the ship is being pulled by something and that pull is getting stronger and stronger. We must be approaching the black hole. Have any last words before we die a hopefully painless death? Y/N")
+        a_input2B = input("\nSooooo it seems like the ship is being pulled by something and that pull is getting stronger and stronger. We must be approaching the black hole. Have any last words before we die a hopefully painless death? Y/N")
         if a_input2B == "Y":
-            a_input2BY = input("Say them now my friend.")
+            a_input2BY = input("Say them now my friend: ")
             print("I feel the same way. Goodbye friend. It was honor to fly with you.")
-        elif a_input2BN == "N":
+        elif a_input2B == "N":
             print("Well it was nice knowin' yah. Just before we die, know that this was all your idea.")
             
 
